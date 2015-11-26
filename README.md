@@ -18,4 +18,4 @@ Note the structure. There is a container Pom, which has core, site and admin. si
 to set this in eclipse, please follow the getting started instructions at http://docs.broadleafcommerce.org/core/current/getting-started . Just that instead of zip containing workspace, we start with downloading the project from git. 
 
 Retain the master at the branch obtained from broadleaf, and create more branches for other changes. 
-dsadffd
+dsadffdefssdfsf
