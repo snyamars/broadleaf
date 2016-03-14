@@ -157,7 +157,7 @@
                         </filesets>
                     </configuration>
                 </plugin>
-                <!--- Added by Sree --->
+                <!-- Added by Sree -->
                 <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
