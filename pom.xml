@@ -157,6 +157,24 @@
                         </filesets>
                     </configuration>
                 </plugin>
+                <!--- Added by Sree --->
+                <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.5.3</version>
+            <executions>
+                <execution>
+                  <id>default-deploy</id>
+                  <phase>release</phase>
+                  <goals>
+                    <goal>update-versions</goal>
+                  </goals>
+                </execution>
+              </executions>
+            <configuration>
+              <preparationGoals>release</preparationGoals>
+            </configuration>
+            </plugin>
             </plugins>
         </pluginManagement>
     </build>
